@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+input:focus {
+	outline: none;
+}
+.instragram-header {
+	width: 900px;
+	margin: auto;
+}
+.instragram-band {
+	display: flex;
+}
+.instragram-band a {
+	width: 140px;
+	height: 58px;
+	background-image: url(image/logo.png);
+	display: inline-block;
+	position: 19px;
+	margin-right: 319px;
+	transform: scale(0.9);
+	padding-right: 150px;
+	background-position: 0px 3px;
+	transform: translate(10px, 10px);
+}
+.instragram-band .search {
+	display: flex;
+	width: 200px;
+	height: 40px;
+	margin-top: 8px;
+	margin-left: -190px;
+	position: relative;
+	/* border: none; */
+}
+.instragram-band input {
+	border: none;
+	width: 239px;
+	background: #efefef;
+	border-radius: 8px;
+	padding-left: 43px;
+}
+.instragram-band button {
+	position: absolute;
+	top: 8px;
+	border: none;
+	font-size: 21px;
+	padding-left: 15px;
+	background-color: #efefef;
+}
+.instragram-menu {
+	transform: translate(10px, 10px);
+}
+.instragram-menu ul {
+	display: flex;
+	justify-content: space-evenly;
+	width: 71%;
+	margin-left: 146px;
+}
+.instragram-menu img {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	transform: translate(2px, -2px);
+}
+/* body part  */
+.body-box {
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.follow-page-box img {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	border: 3px solid red;
+	margin-left: 10px;
+}
+.follow-page-box span {
+	margin-left: 13px;
+}
+.author-info {
+	display: flex;
+	margin-top: 22px;
+}
+.author-info img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.author-info a {
+	width: 100%;
+	margin-left: 15px;
+	color: #262626;
+}
+.author-span span {
+	margin-left: 63px;
+	width: 107%;
+	display: block;
+	margin-top: -26px;
+	color: #bdbdbd;
+}
+.author-button button {
+	margin-left: 52px;
+	border: none;
+	font-size: 15px;
+	font-weight: 600;
+	color: #0296f6;
+	background-color: white;
+	margin-top: 29px;
+}
+/* suggest box */
+.suggest-box {
+	width: 120%;
+	margin-top: 20px;
+}
+.suggest-box span {
+	color: #9f9f9f;
+}
+.suggest-box a {
+	margin-left: 90px;
+}
+.follow-man {
+	width: 120%;
+}
+.follow-man-info {
+}
+.follow-man-info a {
+	margin-left: 5px;
+	/* width: 106px; */
+}
+.follow-man-info button {
+	margin-left: 90px;
+	border: none;
+	position: absolute;
+	transform: translate(33px, 21px);
+	background: white;
+	font-size: 13px;
+	color: #0296f6;
+}
+.follow-man-info span {
+	transform: translate(-69px, 35px);
+	position: absolute;
+	font-size: 12px;
+	color: #939393;
+}
+.follow-man-info img {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+
+.post-box {
+	margin-top: -287px;
+}
+
+.post-box-top {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	transform: translate(12px, -35px);
+}
+.post-box-top span {
+	margin-left: 40px;
+}
+.top-img img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+/* modal  */
+.data-not {
+	width: 529px;
+	margin-top: -300px;
+}
